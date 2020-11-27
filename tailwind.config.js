@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: [],
@@ -15,7 +15,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
+      blueNice: '#59A3DE',
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -63,6 +63,8 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      md: '766px',
+      img: '200px',
     },
     animation: {
       none: 'none',
@@ -640,7 +642,8 @@ module.exports = {
     transitionProperty: {
       none: 'none',
       all: 'all',
-      DEFAULT: 'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform',
+      DEFAULT:
+        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform',
       colors: 'background-color, border-color, color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
@@ -852,4 +855,4 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
   plugins: [],
-}
+};
